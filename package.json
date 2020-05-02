@@ -16,7 +16,6 @@
     "nemo:form": "SELENIUM_PROMISE_MANAGER=0 ./bin/nemo -B test -P form",
     "nemo:lifecycle:suite": "SELENIUM_PROMISE_MANAGER=0 ./bin/nemo -B test -P driverPerSuite",
     "nemo:lifecycle:test": "SELENIUM_PROMISE_MANAGER=0 ./bin/nemo -B test -P driverPerTest",
-    "nemo:nested": "SELENIUM_PROMISE_MANAGER=0 ./bin/nemo -B test -P nested",
     "nemo:xunit": "./bin/nemo -B test -G @suite1 -P xunit",
     "nemo:customDriver": "./bin/nemo -B test -G @suite1 -P customDriver",
     "nemo:env:override": "NODE_ENV=override ./bin/nemo -B test -P override",
